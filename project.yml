@@ -1,0 +1,15 @@
+name: CosmoBouncer
+
+options:
+  bundleIdPrefix: com.wozniack
+  deploymentTarget:
+    iOS: 16.0
+
+targets:
+  CosmoBouncer:
+    settings:
+      DEVELOPMENT_TEAM: L2AH2M48T4
+    type: application
+    platform: iOS
+    sources:
+      - path: CosmoBouncer
